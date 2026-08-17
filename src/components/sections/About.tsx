@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { HighlightItem } from "@/types";
 
 const HIGHLIGHTS: HighlightItem[] = [
@@ -22,7 +23,7 @@ export default function About() {
   return (
     <section className="py-16 px-6 max-w-6xl mx-auto w-full">
       {/* Section Header */}
-      <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+      <div className="text-center max-w-3xl mx-auto mb-12 space-y-4">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-white via-zinc-100 to-zinc-300 bg-clip-text text-transparent pb-3 leading-tight drop-shadow-[0_0_25px_rgba(255,255,255,0.2)]">
           Bui Nguyen Nhat Minh
         </h1>
@@ -30,6 +31,19 @@ export default function About() {
         <p className="text-lg sm:text-xl font-medium italic text-zinc-300">
           &ldquo;Strategy wins both on the board and in code.&rdquo;
         </p>
+      </div>
+
+      {/* Featured Profile Hero Banner */}
+      <div className="relative w-full mb-14 rounded-2xl md:rounded-3xl overflow-hidden border border-zinc-800/80 hover:border-zinc-600/60 transition-all duration-300 shadow-2xl bg-zinc-900/50 backdrop-blur-md group">
+        <Image
+          src="/profile-banner.jpg"
+          alt="Bui Nguyen Nhat Minh Profile Banner"
+          width={1200}
+          height={500}
+          priority
+          className="w-full h-auto max-h-[420px] object-cover object-center group-hover:scale-[1.01] transition-transform duration-500 ease-out"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/60 via-transparent to-transparent pointer-events-none" />
       </div>
 
       {/* Main Content Grid */}
