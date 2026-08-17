@@ -14,3 +14,16 @@ export interface SkillCategory {
     description: string;
     skills: string[];
 }
+
+export interface ProjectItem {
+    id: string;
+    title: string;
+    category: string;
+    description: string;
+    tags: string[];
+    frontendUrl?: string;
+    backendUrl?: string;
+    githubUrl?: string;
+    demoUrl?: string;
+    featured?: boolean;
+}
