@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@keyframes spinBtnGlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rainbow-glow-beam {
+  position: absolute;
+  top: -150%;
+  left: -50%;
+  width: 200%;
+  height: 400%;
+  background: conic-gradient(
+    #ff0055,
+    #ff9900,
+    #ffff00,
+    #33cc33,
+    #00ffff,
+    #0066ff,
+    #9900ff,
+    #ff0055
+  );
+  animation: spinBtnGlow 2.5s linear infinite;
+}
