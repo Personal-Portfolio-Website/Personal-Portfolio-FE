@@ -1,4 +1,5 @@
-import { HighlightItem } from '@/types';
+import { HighlightItem } from "@/types";
+
 const HIGHLIGHTS: HighlightItem[] = [
     {
     title: "Clean Architecture",
@@ -14,19 +15,18 @@ const HIGHLIGHTS: HighlightItem[] = [
   },
 ];
 
+
 export default function About() {
   return (
     <section className="py-16 px-6 max-w-6xl mx-auto w-full">
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
-        {/* About Me to đùng và chuyển màu neon rực rỡ */}
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 via-teal-300 to-fuchsia-500 bg-clip-text text-transparent">
           About Me
         </h1>
         
-        {/* Dòng slogan chuyển thành phụ đề tinh gọn bên dưới */}
-        <p className="text-lg sm:text-xl font-medium text-slate-300">
-          "Strategy wins both on the board and in code."
+        <p className="text-lg sm:text-xl font-medium italic text-slate-300">
+          &ldquo;Strategy wins both on the board and in code.&rdquo;
         </p>
       </div>
 
