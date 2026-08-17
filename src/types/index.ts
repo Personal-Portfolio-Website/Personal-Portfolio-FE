@@ -36,3 +36,17 @@ export interface ExperienceItem {
     achievements: string[];
     skills: string[];
 }
+
+export interface ContactChannel {
+    label: string;
+    value: string;
+    href: string;
+    description: string;
+}
+
+export interface ContactChannel {
+  label: string;
+  value: string;
+  href: string;
+  description: string;
+}
