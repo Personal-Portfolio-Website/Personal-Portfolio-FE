@@ -15,7 +15,7 @@ export default function Navbar() {
           href="/" 
           className="text-lg font-bold text-white tracking-wider hover:text-cyan-400 transition-colors whitespace-nowrap"
         >
-          &lt;DevPortfolio /&gt;
+          Bui Minh Portfolio
         </Link>
 
         {/* Navigation Links trải từ giữa sang phải */}

@@ -8,6 +8,12 @@ export const CONTACT_CHANNELS: ContactChannel[] = [
     description: "Best for software engineering inquiries, collaborations, and formal discussions.",
   },
   {
+    label: "Facebook",
+    value: "My Facebook Profile",
+    href: "https://www.facebook.com/harry.bui.712714",
+    description: "Personal channel for casual discussions, social networking, and quick messages.",
+  },
+  {
     label: "GitHub",
     value: "github.com/Harry-dev1805",
     href: "https://github.com/Harry-dev1805",
@@ -15,8 +21,8 @@ export const CONTACT_CHANNELS: ContactChannel[] = [
   },
   {
     label: "Java OOP / LAB211 Mentoring",
-    value: "Direct Inquiry",
-    href: "mailto:your-email@example.com?subject=[Mentoring%20Inquiry]%20LAB211%20Java%20OOP",
+    value: "Zalo: 0778.651.265",
+    href: "https://zalo.me/0778651265",
     description: "One-on-one guidance, code reviews, and structured learning for LAB211 coursework.",
   },
 ];

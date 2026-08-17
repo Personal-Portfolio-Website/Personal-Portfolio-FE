@@ -15,41 +15,50 @@ const HIGHLIGHTS: HighlightItem[] = [
 ];
 
 export default function About() {
-    return (
-    <section id="about" className="py-24 px-6 max-w-6xl mx-auto border-t border-slate-800">
+  return (
+    <section className="py-16 px-6 max-w-6xl mx-auto w-full">
       {/* Section Header */}
-      <div className="text-center max-w-2xl mx-auto mb-16">
-        <span className="text-cyan-400 text-sm font-semibold tracking-wider uppercase">
+      <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        {/* About Me to đùng và chuyển màu neon rực rỡ */}
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 via-teal-300 to-fuchsia-500 bg-clip-text text-transparent">
           About Me
-        </span>
-        <h2 className="text-3xl sm:text-4xl font-bold text-white mt-2">
+        </h1>
+        
+        {/* Dòng slogan chuyển thành phụ đề tinh gọn bên dưới */}
+        <p className="text-lg sm:text-xl font-medium text-slate-300">
           Driven by curiosity, shaped by engineering discipline.
-        </h2>
+        </p>
       </div>
 
       {/* Main Content Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        {/* Narrative Bio */}
-        <div className="space-y-4 text-slate-300 leading-relaxed text-base sm:text-lg">
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
+        {/* Left Column: Detailed Bio */}
+        <div className="lg:col-span-6 space-y-6 text-slate-300 leading-relaxed text-base sm:text-lg">
           <p>
-            I am a Software Engineering student focused on building scalable, end-to-end web applications. My foundation is built on modern frontend ecosystems like Next.js and robust backend frameworks like Spring Boot.
+            I am a Software Engineering student focused on building scalable,
+            end-to-end web applications. My foundation is built on modern
+            frontend ecosystems like Next.js and robust backend frameworks
+            like Spring Boot.
           </p>
-          <p className="text-slate-400">
-            I believe writing code is much like playing chess: every component, class, and architectural decision requires foresight and tactical execution. My goal is to bridge thoughtful design with performant, reliable software.
+          <p>
+            I believe writing code is much like playing chess: every component,
+            class, and architectural decision requires foresight and tactical
+            execution. My goal is to bridge thoughtful design with performant,
+            reliable software.
           </p>
         </div>
 
-        {/* Highlight Cards */}
-        <div className="grid grid-cols-1 gap-4">
-          {HIGHLIGHTS.map((item, index) => (
+        {/* Right Column: Key Highlights */}
+        <div className="lg:col-span-6 space-y-4">
+          {HIGHLIGHTS.map((item, idx) => (
             <div
-              key={index}
-              className="p-5 rounded-xl bg-slate-800/50 border border-slate-700/60 hover:border-cyan-500/50 transition-all hover:translate-x-1"
+              key={idx}
+              className="p-6 rounded-2xl bg-slate-800/40 border border-slate-700/60 hover:border-cyan-500/40 transition-all backdrop-blur-sm shadow-sm"
             >
-              <h3 className="text-lg font-semibold text-white">
+              <h2 className="text-lg font-bold text-white mb-1.5">
                 {item.title}
-              </h3>
-              <p className="mt-1.5 text-sm text-slate-400">
+              </h2>
+              <p className="text-sm text-slate-400 leading-relaxed">
                 {item.description}
               </p>
             </div>
