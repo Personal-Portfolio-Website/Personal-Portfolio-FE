@@ -20,15 +20,15 @@ export default function About() {
   return (
     <section className="py-16 px-6 max-w-6xl mx-auto w-full">
       {/* Section Header */}
-      <div className="text-center max-w-3xl mx-auto mb-16 space-y-3">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 via-teal-300 to-fuchsia-500 bg-clip-text text-transparent">
-          About Me
-        </h1>
-        
-        <p className="text-lg sm:text-xl font-medium italic text-slate-300">
-          &ldquo;Strategy wins both on the board and in code.&rdquo;
-        </p>
-      </div>
+<div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
+  <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-400 via-teal-300 to-fuchsia-500 bg-clip-text text-transparent pb-3 leading-tight">
+    Bui Nguyen Nhat Minh
+  </h1>
+  
+  <p className="text-lg sm:text-xl font-medium italic text-slate-300">
+    &ldquo;Strategy wins both on the board and in code.&rdquo;
+  </p>
+</div>
 
       {/* Main Content Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
