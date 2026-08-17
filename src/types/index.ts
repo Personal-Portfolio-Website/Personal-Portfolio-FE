@@ -27,3 +27,12 @@ export interface ProjectItem {
     demoUrl?: string;
     featured?: boolean;
 }
+
+export interface ExperienceItem {
+    period: string;
+    role: string;
+    organization: string;
+    description: string;
+    achievements: string[];
+    skills: string[];
+}
