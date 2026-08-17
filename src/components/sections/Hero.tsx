@@ -33,13 +33,13 @@ export default function Hero() {
       {/* CTA Buttons */}
       <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
         <Link
-          href="#projects"
+          href="/projects"
           className="px-6 py-3 text-sm font-semibold text-slate-900 bg-cyan-400 hover:bg-cyan-300 rounded-lg shadow-lg shadow-cyan-500/20 transition-all hover:scale-105"
         >
           Explore Projects
         </Link>
         <Link
-          href="#contact"
+          href="/contact"
           className="px-6 py-3 text-sm font-semibold text-slate-200 bg-slate-800 hover:bg-slate-700 border border-slate-700 rounded-lg transition-all hover:scale-105"
         >
           Contact Me
