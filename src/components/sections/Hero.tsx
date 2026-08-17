@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
 
       {/* Main Heading */}
-      <h1 className="text-4xl sm:text-6xl font-extrabold text-zinc-50 tracking-tight leading-tight">
+      <h1 className="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight pb-2">
         Building Scalable Software with{" "}
         <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-zinc-100 to-zinc-300 drop-shadow-[0_0_25px_rgba(255,255,255,0.2)]">
           Passion & Precision.

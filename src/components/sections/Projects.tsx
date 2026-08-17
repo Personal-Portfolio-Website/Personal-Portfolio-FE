@@ -11,8 +11,11 @@ export default function Projects() {
         <span className="text-zinc-300 text-xs font-semibold tracking-widest uppercase font-mono">
           Featured Work & Solutions
         </span>
-        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-white via-zinc-100 to-zinc-300 bg-clip-text text-transparent mt-2 drop-shadow-[0_0_20px_rgba(255,255,255,0.15)]">
-          Projects & Engineering Lab
+        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white mt-2 pb-2 leading-tight">
+          Projects{" "}
+          <span className="bg-gradient-to-r from-white via-zinc-100 to-zinc-300 bg-clip-text text-transparent drop-shadow-[0_0_25px_rgba(255,255,255,0.2)]">
+            & Engineering Lab
+          </span>
         </h1>
         <p className="mt-4 text-zinc-300 text-base">
           From full-stack production systems to core Java architecture labs.
