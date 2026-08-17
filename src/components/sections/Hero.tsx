@@ -23,7 +23,7 @@ export default function Hero() {
       {/* Slogan & Description */}
       <div className="mt-6 max-w-2xl">
         <p className="text-lg sm:text-xl font-medium italic text-cyan-400">
-          &ldquo;Strategy wins both on the board and in code.&rdquo;
+          &ldquo;Driven by curiosity, shaped by engineering discipline.&rdquo;
         </p>
         <p className="mt-3 text-base sm:text-lg text-slate-400 leading-relaxed">
           I&apos;m a Software Engineering student passionate about crafting clean full-stack applications, exploring system architectures, and learning by doing.

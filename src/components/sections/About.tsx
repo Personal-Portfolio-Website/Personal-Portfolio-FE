@@ -26,7 +26,7 @@ export default function About() {
         
         {/* Dòng slogan chuyển thành phụ đề tinh gọn bên dưới */}
         <p className="text-lg sm:text-xl font-medium text-slate-300">
-          Driven by curiosity, shaped by engineering discipline.
+          "Strategy wins both on the board and in code."
         </p>
       </div>
 
