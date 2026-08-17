@@ -19,6 +19,6 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     {
         title: "Tools",
         description: "Version control, containerization, and development workflow.",
-        skills: ["Git & GitHub", "Docker Basics", "Visual Studio Code", "VS Code", "IntelliJ IDEA"],
+        skills: ["Git & GitHub", "Docker Basics", "Visual Studio", "VS Code", "IntelliJ IDEA"],
     },
 ];
