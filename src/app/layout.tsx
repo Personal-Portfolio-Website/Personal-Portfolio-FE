@@ -14,12 +14,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="bg-slate-950 text-slate-100 min-h-screen selection:bg-fuchsia-500 selection:text-white relative antialiased overflow-x-hidden">
-        {/* Hiệu ứng ánh sáng nền đa sắc (Glow Mesh Gradients) */}
+      <body className="bg-zinc-950 text-zinc-100 min-h-screen selection:bg-zinc-100 selection:text-zinc-950 relative antialiased overflow-x-hidden">
+        {/* Modern Monochromatic Ambient Dark Mesh */}
         <div className="fixed inset-0 pointer-events-none -z-10 overflow-hidden">
-          <div className="absolute -top-40 left-1/4 w-[500px] h-[500px] bg-cyan-500/20 rounded-full blur-[128px] animate-pulse" />
-          <div className="absolute top-1/3 -right-20 w-[450px] h-[450px] bg-fuchsia-500/20 rounded-full blur-[128px]" />
-          <div className="absolute -bottom-20 left-1/3 w-[600px] h-[600px] bg-indigo-500/15 rounded-full blur-[140px]" />
+          <div className="absolute -top-40 left-1/4 w-[600px] h-[600px] bg-zinc-400/5 rounded-full blur-[140px] animate-pulse" />
+          <div className="absolute top-1/3 -right-20 w-[500px] h-[500px] bg-zinc-300/5 rounded-full blur-[130px]" />
+          <div className="absolute -bottom-20 left-1/3 w-[650px] h-[650px] bg-white/[0.03] rounded-full blur-[150px]" />
         </div>
 
         <Navbar />
